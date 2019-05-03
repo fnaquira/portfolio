@@ -1,13 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Layout from './components/Layout';
 
 function App() {
-	return (
-		<div className="container">
-			<h1>Bienvenido</h1>
-		</div>
-	);
+	return <Layout />;
 }
 
 export default App;
